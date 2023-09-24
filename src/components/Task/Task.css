@@ -1,0 +1,38 @@
+.task-contener{
+    width: 400px;
+    height:90px ;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid  #3cc37d;
+    box-shadow: 0 2px 4px  #3cc37d;
+    position: relative;
+}
+.task-title{
+margin: 0px;
+}
+.task-discription{
+margin: 0px;
+}
+.task-priority{
+position: absolute;
+right: 0;
+top: 0;
+border-radius: 0 15px 0 0;
+background-color:  #3cc37d;
+color: white;
+padding: 2px 5px;
+width: 100px;
+}
+.task-delete-icon{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.task-edit-icon{
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+    cursor: pointer;
+}
